@@ -1,0 +1,7 @@
+<div class="container">
+    <app-search (onAddToCart)="updateCart($event)" [colors]="colors" class="search"></app-search>
+    <app-cart (onDelete)="deleteItemFromCart($event)" class="cart" [cart]="cartState"></app-cart>
+    <input [(ngModel)]="inputText" #ctrl="ngModel"/>
+    <h1>{{inputText}}</h1>
+    <button>post data</button>
+</div>

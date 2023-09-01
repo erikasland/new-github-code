@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-flow: row wrap ;
+    width: 100%;
+}
+
+.red, .blue, .green, .yellow {
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+}
+
+.red{ 
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}

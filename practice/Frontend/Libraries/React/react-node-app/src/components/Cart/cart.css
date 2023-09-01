@@ -1,0 +1,21 @@
+.cart-item-wrapper {
+    width: 30rem;
+    height: 100%;
+    background-color: lightgray;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cart-item-container{
+    height: 6rem;
+}
+
+.cart-item {
+    width: 7rem;
+    height: 5rem;
+    margin: 1rem;
+    background-color: white;
+
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>home</h1>
+    <h1>{{request.user}}</h1>
+    {% for thing in stuff %}
+        <ul>
+            {% if thing == 2 %}
+                <li>{{ forloop.counter }} - {{ thing}}</li>
+            {% elif thing == 1 %}
+                <li>{{ forloop.counter }} -ddd {{ thing}}</li>
+            {% else %}
+                <li>{{ forloop.counter }} - 333 {{ thing}}</li>
+            {% endif %}
+        </ul>
+    {% endfor %}
+{% endblock %}

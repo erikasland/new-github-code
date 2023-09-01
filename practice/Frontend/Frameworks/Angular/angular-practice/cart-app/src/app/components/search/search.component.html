@@ -1,0 +1,5 @@
+<div class="container" ng-init="myVar = 'images/one.png'">
+    <div class="coat-container" *ngFor="let color of colors">
+        <div *ngIf="color !== 'red'" class="{{color}}" (click)="onSelectItem(color)"></div>
+    </div>
+</div>

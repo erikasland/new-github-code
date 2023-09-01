@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "colors": "blue",
+      "id": 2
+    },
+    {
+      "colors": "blue",
+      "id": 3
+    },
+    {
+      "colors": "blue",
+      "id": 4
+    },
+    {
+      "colors": "blue",
+      "id": 5
+    },
+    {
+      "colors": "blue",
+      "id": 6
+    },
+    {
+      "colors": "blue",
+      "id": 7
+    },
+    {
+      "colors": "blue",
+      "id": 8
+    },
+    {
+      "colors": "blue",
+      "id": 9
+    },
+    {
+      "colors": "blue",
+      "id": 10
+    },
+    {
+      "colors": "blue",
+      "id": 11
+    },
+    {
+      "colors": "blue",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
